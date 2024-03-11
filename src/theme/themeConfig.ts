@@ -1,3 +1,4 @@
+import { theme } from 'antd';
 import { ThemeProviderProps as AntDThemeProviderProps } from 'antd-style';
 
 export type ThemeProviderProps = AntDThemeProviderProps<any>;
@@ -11,6 +12,7 @@ const default_theme_props: ThemeProviderProps = Object.freeze({
     // colorBgLayout: 'red',
   },
   theme: {
+    algorithm: theme.defaultAlgorithm,
     token: {
       colorPrimary,
       borderRadius: 12,

@@ -50,6 +50,9 @@ export const useStyles = createStyles(({ token }) => ({
     a: {
       verticalAlign: 'sub',
     },
+    svg: {
+      fill: token.colorTextBase,
+    },
   },
   chatsTitle: {
     padding: '8px 8px 8px 20px',
